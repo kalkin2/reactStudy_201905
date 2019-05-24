@@ -1,0 +1,36 @@
+1.Node -v 노드 설치 확인
+
+ 
+
+Mac  터미널 오픈 후, 
+NVM 설치
+  curl https://raw.githubusercontent.com/creationix/nvm/v0.30.2/install.sh | bash
+shell restart
+source ~/.bash_profile
+버전 확인
+nvm --version
+nvm 으로  node 설치 
+nvm install stable
+ 
+
+ 
+
+2.webstorm 설치 및 설정 https://www.jetbrains.com/webstorm/download/#section=mac
+
+Language & Frameworks > Javascript : version을 ECMAScript 6으로 설정
+Language & Frameworks > Javascript > Libraries : 에서 script 태그로 추가한 라이브러리를
+추가 해야 코드 자동 완성 기능이 지원된다. React, React-Dom, babel-core 등을 여기서 추가한다. 
+==> Download&install  react, react-dom, babel-core 설치
+node js and NPM  node interpreter 에서  정상적으로 세팅 되어있는지 확인 (버전 선택 가능)
+ 
+
+
+ 
+
+ 
+
+3. 크롬 브라우저   React 개발도구 devtools 설치
+
+react devtools 라고 검색하면 크롬 확장팩인 리액트 개발도구를 찾을수 있는데 받아서 설치.
+
+마찬가지로 redux devtools라고 검색해서 크롬 확장팩인 리덕스 개발도구를 찾아서 설치.
