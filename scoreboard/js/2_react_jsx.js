@@ -1,7 +1,7 @@
 /*
 * jsx 문법 사용을 위해서는
 * 1. index.html에  플러그인cdn을 추가해준다.
-* 2. index.html에 app_jsx.js 선언부에  type="text/babel" 추가
+* 2. index.html에  선언부에  type="text/babel" 추가
 * 3. 에디터에서 에러가 난다면 이클립스기준 상단우측에 switch를 눌러 es6 문법에서 jsx로 switch해준다.
 * 4. 가로는 가독성을 위해 추가해주는것을 추천
 * 5. {}를 jsx expression 이라고한다. 변수사용 가능하다

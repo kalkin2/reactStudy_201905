@@ -7,7 +7,7 @@ var userPw =  (
      <input type='text' id='userPw' name='userPw'></input>
 )
 
-var loginform = (
+var virtualDom_3 = (
     <table>
         <tr>
             ID : <td><input type='text' id='userName' name='userName'></input></td>
@@ -21,5 +21,5 @@ var loginform = (
 
 //Render
 ReactDOM.render(
-    loginform,document.getElementById('root')
+    virtualDom_3,document.getElementById('root')
 )
